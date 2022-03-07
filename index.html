@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="imagenes/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Neo Kaab</title>
+</head>
+<body>
+    <header>
+        <div style="width: 40%; padding-left: 20px;">
+            <img class="logo" src="imagenes/logo.png" alt="logo" height="100px">
+        </div>
+        
+        <ul class = "opciones" >
+            <li><a href="#home">Inicio</a></li>
+            <li>
+                <div class="dropdown">
+                    <p >Menú</p>
+                    <div class="dropdown-content" style="background-color: #99BFF2">
+                        <a href="#sabores" style="font-weight: normal; font-size: medium;">Sabores de pastel</a>
+                        <a href="#adornos"  style="font-weight: normal; font-size: medium;">Decoraciones</a>
+
+                    </div>
+                
+                </div>
+
+            </li>
+            <li><a href="admin.html">Administrador</a></li>
+            <li><a href="#nosotros">Contáctanos</a></li>
+            <li><a href="#pedidos" class="btn1"> Haz tu pedido</a>
+            </li>
+        </ul>
+
+        
+    </header>
+
+    <main>
+        <!-- Bienvenida-->
+        <section id="home" class="fondo-completo">
+            <div class= "contenedor" style="box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);justify-content: center;border: 25px solid #29A632;background-color:#5BA638;">
+                <div class="heading">
+                
+                    <h1 style="font-weight:900;color: white">Neo Kaab</h1>
+    
+                </div>
+                <div class="heading">
+                    
+                    <h2 style="color:white" :>Los mejores pasteles del mundo</h2>
+    
+                </div>
+                <div style="text-align: center;">
+                    <a href="#sabores" class="btn1" style="width:fit-content; font-size: medium; background-color: #BDD9F2"> Conoce nuestros sabores</a>
+
+                </div>
+    
+           
+            </div>
+            </section>
+        <!-- Pasteles en venta -->
+    
+            
+        <!-- Sabores de pasteles en cartas  -->
+        <section id="sabores" class="contenedor" style="background-color: white;">
+                <!-- Título -->
+            <div class="heading">
+                <h2 >Nuestros pasteles</h2>
+            </div>
+            <div class="container">
+                <div class="row mb-2">
+                    <div class="col">
+                        <div class="card">
+                            <img class = "card-img-top" src="imagenes/fresas.jpg" alt="pastel de fresa">
+                            <div class="card-body">
+                                <h5 class="card-title">Fresa</h5>
+                                $300.00
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card">
+                            <img class ="card-img-top" src="imagenes/chocolate.jpg" alt="pastel de chocolate">
+                            <div class="card-body">
+                                <h5 class="card-title">Chocolate</h5>
+                                $150.00
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img class ="card-img-top" src="imagenes/vainilla.jpg" alt="pastel de vainilla">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Vainilla</h5>
+                                $200.00
+                            </div>
+                        </div>
+
+                    </div>
+                
+                </div>
+
+               
+                
+
+            </div>
+            
+
+            
+
+        </section>
+    
+        <!-- Adornos posibles -->
+        <section id="adornos" class="contenedor" style="background-color: white;">
+        <div class="heading">
+            <h2>Decoraciones</h2>
+        </div>
+        
+        <div class="container">
+            <div class="row mb-2">
+                <div class="col">
+                    <div class="card">
+                        <img class = "card-img-top" src="imagenes/vela.jpg" alt="Vela grande">
+                        <div class="card-body">
+                            <h5 class="card-title">Velas grandes</h5>
+                            $100.00
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card">
+                        <img class ="card-img-top" src="imagenes/velitas.jpg" alt="Velitas">
+                        <div class="card-body">
+                            <h5 class="card-title">Paquete de velas</h5>
+                            $20.00
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img class ="card-img-top" src="imagenes/mensaje.jpg" alt="Mensaje para pastel">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Mensaje especial</h5>
+                            $50.00
+                        </div>
+                    </div>
+
+                </div>
+            
+            </div>
+        </div>
+    
+        </section>
+        
+
+        <!-- Formulario de pedidos -->
+        <section id="pedidos" class="contenedor">
+            <!-- título -->
+            <div class="heading"> 
+                <h2>¡Haz tu pedido!</h2>
+            </div>
+
+            <!-- Formulario -->
+            <div class="f1" style="justify-content: center">
+                <form id="form1" style="width:70%">
+                    <h4>Ingresa tus datos</h4>
+                    <div class="input-fields">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre completo">
+                        <input type="tel" id="telefono" name="telefono" placeholder="Teléfono">
+                        <input type="email" id="mail" name="mail" placeholder="Correo electrónico">
+                        
+                    </div>
+                    
+                    <h4>Sabores</h4>
+
+                    <table style="width:100%">
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="sabor1" name="sabor1" value="Fresa">
+                                <label for="sabor1">Fresa</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="sabor2" name="sabor2" value="Chocolate">
+                                <label for="sabor2">Chocolate</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="sabor3" name="sabor3" value="Vainilla">
+                                <label for="sabor3">Vainilla</label>
+                            </td>
+                        </tr>
+                       
+                    </table>
+
+                    <h4>Decoraciones</h4>
+                    <div style="width: 100%; flex-direction:row; flex-wrap; align-items:center; justify-content: center;">
+                
+                            <div class="element1">
+                                <input type="checkbox" id="decoracion1" name="decoracion1" value="velas">
+                                <label for="decoracion1">Velas grandes</label>
+                            </div>
+                            
+                            <div class="element1">
+                                <input type="checkbox" id="decoracion2" name="decoracion2" value="mensaje">
+                                <label for="decoracion2">Paquete de velas</label>
+                            </div>
+                            
+                            <div class="element1">
+                                <input type="checkbox" id="decoracion3" name="decoracion3" value="fondant">
+                                <label for="decoracion3">Mensaje especial</label>
+                            </div>
+                            
+                        
+                   </div>
+                    
+                   
+                    <h4>Descripción</h4>
+                    <textarea class="comment-cl" name="comentario" id="comentario" rows="5"></textarea>
+
+
+                    <div style="display: flex; justify-content: center;">
+                        <input class= "btn1" type="submit" id="submit" value="Hacer pedido">
+
+                    </div>
+                    
+                </form>
+            </div>
+            
+
+        </section>
+        <!-- Footer -->
+        
+        <footer id="nosotros" class="contenedor" style="background-color: #29A632;">
+            <div class="heading" style="padding-bottom:2rem;">
+                <h2 style="color: azure;">Contáctanos</h2>
+            </div>
+            <div class="row1 footer-section" style="background-color: #29A632">
+               
+                <div class="row1 footer-element">
+                    <i class="fa fa-map-marker"></i>
+                    <p class="footer-text">Calle Juan Escutia #110<br>Reforma<br>Chiapas</p>
+                </div>
+                <div class="row1 footer-element">
+                    <i class="fa fa-phone"></i>
+                    <p class="footer-text">+2222222222</p>
+                </div>
+                <div class="row1 footer-element">
+                    <i class="fa fa-envelope"></i>
+                    <p class="footer-text">info@neokaab.com</p>
+                </div>
+                <div class="row1 footer-element">
+                    <i class="fa fa-clock-o"></i>
+                    <p class="footer-text">Horario de atención <br>Lunes a Viernes: 09:00 - 21:00</p>
+                    
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <p style="text-align: center;background-color: white;">Síguenos en nuestras redes</p>
+                    <div class="row1 footer-element">
+
+                        <i class="fa fa-facebook fa-2x"></i>
+                        <i class="fa fa-twitter fa-2x"></i>
+                        <i class="fa fa-instagram fa-2x"></i>
+    
+    
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+        </footer>
+    </main>
+   
+
+    
+</body>
+
+</html>

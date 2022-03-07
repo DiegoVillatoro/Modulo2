@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="imagenes/logo.png">
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Neo Kaab</title>
+</head>
+<body>
+    <header>
+        <div style="width: 40%; padding-left: 20px;">
+            <img class="logo" src="imagenes/logo.png" alt="logo" height="100px">
+        </div>
+        
+        <div class="opciones" style="justify-content:flex-end;padding-right:100px;">
+            <a href="index.html">Vista de usuario</a>
+        </div>
+
+        
+    </header>
+    <main>
+        <section class="row1" style="margin-top: 100px; width: 100%;height: calc(100vh - 100px);">
+
+        <!-- Pedidos -->
+            <div class="card1">
+                
+ 
+                <h4 style="height: 10%; text-align: center;">Pedidos Activos</h4>
+                    
+                <ul class="lista-pedidos" style="height: 90%; padding-left: 10px;">
+                    <li class="list-element" >
+                        <p class="pedido">Pedido #1</p>
+                        
+                            
+                        <p>
+                            <b>Nombre:</b> Diego Osorio <br>
+                            <b>Teléfono:</b> 0123456789<br>
+                            <b>Sabores:</b> Vainilla, Chocolate<br>
+                            <b>Adornoss:</b> Paquete de velas<br>
+                            <b>Descripción:</b> Pastel de cumpleaños con velas pequeñas.
+                        </p>
+
+                        
+                    </li>
+                    <li class="list-element" >
+                        <p class="pedido">Pedido #2</p>
+                        
+                            
+                        <p>
+                            <b>Nombre:</b> Juan Márquez<br>
+                            <b>Teléfono:</b> 9876876987<br>
+                            <b>Sabores:</b> Fresas<br>
+                            <b>Adornoss:</b> Vela, mensaje<br>
+                            <b>Descripción:</b> Pastel de fresas con vela grande.
+                        </p>
+
+                        
+                    </li>
+                </ul>
+               
+                
+            </div>
+            <!-- Inventario -->
+            <div class="card1">
+
+                <div class="clearfix">
+                        <h4 >Inventario de pasteles</h4>
+                    <table class="content-table" id="inventario-sabores" width="100%">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Sabor</th>
+                                <th>Cantidad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Vainilla</td>
+                                <td>2</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Chocolate</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Fresas</td>
+                                <td>15</td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+
+                   
+                </div>
+                <div class="clearfix">
+                    <h4 >Inventario de decoraciones</h4>
+                    <table class="content-table" id="inventario-decoracion" width="100%">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Decoración</th>
+                                <th>Cantidad</th>
+                            </tr>
+                            
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Paquete de velas</td>
+                                <td>50</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Velas grandes</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Mensajes</td>
+                                <td>10</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                
+            </div>
+        </section>
+    </main>
+</body>
+
+            
+   
